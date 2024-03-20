@@ -1,3 +1,21 @@
+---
+page_type: sample
+languages:
+- azurecli
+- azstatic-cli
+- nodejs
+- javascript
+products:
+- azure
+- static-web-apps
+- azure-sql-database
+- data-api-builder
+urlFragment: sample
+name: Jamstack Library App with Azure Static Web Apps, Data API builder, and Azure SQL Database
+description: This sample uses the database connections feature of Azure Static Web Apps to provide CRUD access to database contents with REST, built-in authorizations, and support for database relationships with GraphQL.
+---
+<!-- YAML front-matter schema: https://review.learn.microsoft.com/en-us/help/contribute/samples/process/onboarding?branch=main#supported-metadata-fields-for-readmemd -->
+
 # Library Demo
 A sample app of Static Web Apps with Database connections for a React app and Azure SQL database
 
