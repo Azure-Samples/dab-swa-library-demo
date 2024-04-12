@@ -9,7 +9,6 @@ products:
 - azure
 - static-web-apps
 - azure-sql-database
-- data-api-builder
 urlFragment: sample
 name: Jamstack Library App with Azure Static Web Apps, Data API builder, and Azure SQL Database
 description: This sample uses the database connections feature of Azure Static Web Apps to provide CRUD access to database contents with REST, built-in authorizations, and support for database relationships with GraphQL.
