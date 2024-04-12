@@ -5,6 +5,7 @@ languages:
 - azstatic-cli
 - nodejs
 - javascript
+- data-api-builder
 products:
 - azure
 - static-web-apps
