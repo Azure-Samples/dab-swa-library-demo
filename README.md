@@ -72,4 +72,4 @@ You can now use your Static Web App Library Demo Application. It supports author
 ### Log in page with `admin` role
 ![alt text](./.readme/authpage.png)
 
-### Non-logged in users receive succesful 201's when they try to Create as configured in `swa-db-connections/staticwebapp.database.config.json`![alt text](./.readme/adminuserscreate.png)
+### Logged in users receive succesful 201's when they try to Create as configured in `swa-db-connections/staticwebapp.database.config.json`![alt text](./.readme/adminuserscreate.png)
