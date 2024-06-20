@@ -38,7 +38,7 @@ This project uses the database connections feature of Static Web Apps to provide
 1. Clone this repository
 2. Navigate to `library` directory & open with VSCode
 3. Set the `DATABASE_CONNECTION_STRING` environment variable to your connection string in your terminal/cmd/powershell. Alternatively, paste your database connection string directly into `swa-db-connections/staticwebapp.database.config.json` (*not recommended*) (ensure that you remove this secret from your source code before pushing to GitHub/remote repository)
-4. Run `swa start http://localhost:3000 --run "cd library-demo && npm i && npm start" swa-db-connections`
+4. Run `swa start http://localhost:3000 --run "cd library-demo && npm i && npm start" --data-api-location swa-db-connections`
     * `cd library-demo && npm i && npm start` will install needed npm packages and run your React app
     * `--data-api-location swa-db-connections` indicates to the SWA CLI that your database connections configurations are in the `swa-db-connections` folder
 Alternatively, you can start all these projects manually an make use of SWA CLI's other args
